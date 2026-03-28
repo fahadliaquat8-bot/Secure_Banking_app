@@ -1,33 +1,36 @@
-# SecureBankingApp
+# Secure Banking API (FastAPI)
 
-SecureBankingApp is a Python backend for a secure online banking experience with OTP-based admin access, customer management, account operations, transfers, and transaction history.
+A scalable and secure banking backend system built using FastAPI.
 
-## Features
-- User registration and authentication
-- Admin OTP flow
-- Account creation and status management
-- Cash deposit/withdrawal
-- Transfers between accounts
-- Transaction history
+## 🚀 Features
 
-## Tech
-- FastAPI
-- MySQL (aiomysql)
-- Redis (cache)
+* User authentication with JWT
+* OTP-based verification system
+* Admin panel with OTP login
+* Account creation & management
+* Deposit, withdrawal, and transfer system
+* Transaction history tracking
 
-## Setup
-1) Create and activate a virtual environment
-2) Install dependencies
-   ```bash
+## 🛠 Tech Stack
+
+* FastAPI
+* MySQL (Async)
+* Redis (Caching)
+* JWT Authentication
+
+## 📦 Setup
+
+1. Clone repository
+2. Install dependencies:
    pip install -r requirements.txt
-   ```
-3) Configure environment variables in `.env`
-4) Initialize the database using `database/database_file.sql`
+3. Configure .env file
+4. Run:
+   uvicorn main:app --reload
 
-## Run
-```bash
-uvicorn main:app --reload
-```
+## 📸 API Preview
 
-## Notes
-- `.env` in this repo contains dummy values only.
+(Add Postman screenshots here)
+
+## 👨‍💻 Author
+
+FastAPI Backend Developer
