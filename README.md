@@ -26,11 +26,3 @@ A scalable and secure banking backend system built using FastAPI.
 3. Configure .env file
 4. Run:
    uvicorn main:app --reload
-
-## 📸 API Preview
-
-(Add Postman screenshots here)
-
-## 👨‍💻 Author
-
-FastAPI Backend Developer
